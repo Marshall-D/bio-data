@@ -28,7 +28,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/profile",
-        element: <Profile />
+        element: <Profile 
+       
+        />
       }
     ]
   },
@@ -37,6 +39,9 @@ function App() {
   return (
     <>
       <RouterProvider router={router}/>
+      
+
+
     </>
    
   );

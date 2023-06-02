@@ -1,21 +1,30 @@
 import BioList from "../components/BioList";
 import "../styles/Home.css";
+import {members} from "../data/Data";
 
-function Home() {
+
+
+
+
+
+// array of navy memebrs
+
+
+function Home(props) {
   return (
-    <div className="dnd" >
-        <form className="example" action="/search">
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search name"
-            name="search"
-          />
-          <button className="button" type="submit">
-            <i class="fa fa-search"></i>
-          </button>
-        </form>
-      
+    <div className="dnd">
+      <form className="example" action="/search">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="Search name"
+          name="search"
+        />
+        <button className="button" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+
       <div class="theme-container empty">
         <div id="dnn_ctr2178_ContentPane">
           <div
@@ -47,19 +56,19 @@ function Home() {
       </div>
       <section className="bio-list">
         <ul className="alist">
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
-          <BioList />
+          {/* map the array of navy members here and 
+          create a biolist each time and send the details through props */}
+          {members.map((member) => (
+            <BioList
+            key={member.id}
+            name={member.name}
+            rank={member.rank}
+            image={member.image}
+            content={member.content}
+          />
+
+          ))}
+          
         </ul>
       </section>
     </div>
@@ -67,4 +76,3 @@ function Home() {
 }
 
 export default Home;
-
