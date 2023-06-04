@@ -3,7 +3,7 @@ import "../styles/Press.css";
 
 function Press() {
   return (
-    <div>
+    <div style={{margin:"1em"}}>
       <div class="DnnModule DnnModule-DNN_HTML DnnModule-690">
         <a name="690" href="#"></a>
 
@@ -45,9 +45,7 @@ function Press() {
 
             <div class="theme-container">
               <h2 className="theme-header">
-                <span className="title">
-                  Navy News
-                </span>
+                <span className="title">Navy News</span>
 
                 <span class="rss"></span>
               </h2>
@@ -63,11 +61,16 @@ function Press() {
                           <div className="row">
                             <div className="col-4">
                               {/* <a className="thumb" href="#"> */}
-                                <img
-                                  className="img-responsive"
-                                  src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
-                                  alt=""
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                // className="img-responsive"
+                                src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
+                                alt=""
+                              />
                               {/* </a> */}
                             </div>
                             <div className="col-12">
@@ -78,8 +81,8 @@ function Press() {
                               </h5>
                               <h2 className="col-h2">
                                 {/* <a href="#"> */}
-                                  Undersecretary of the Navy, Vice Chief of
-                                  Naval Operations visit PSNS &amp; IMF
+                                Undersecretary of the Navy, Vice Chief of Naval
+                                Operations visit PSNS &amp; IMF
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"
@@ -109,14 +112,19 @@ function Press() {
                           <div className="row">
                             <div className="col-4">
                               {/* <a class="thumb" href="#"> */}
-                                <img
-                                  className="img-responsive"
-                                  src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
-                                  alt=""
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                // className="img-responsive"
+                                src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
+                                alt=""
+                              />
                               {/* </a> */}
                             </div>
-                          <div className="col-12">
+                            <div className="col-12">
                               <h6 className="col-h6">4/6/2023</h6>
                               <h5 className="col-h5">
                                 {" "}
@@ -124,8 +132,8 @@ function Press() {
                               </h5>
                               <h2 className="col-h2">
                                 {/* <a href="#"> */}
-                                  Under Secretary of the Navy, Vice Chief of
-                                  Naval Operations visit PSNS &amp; IMF
+                                Under Secretary of the Navy, Vice Chief of Naval
+                                Operations visit PSNS &amp; IMF
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"
@@ -151,11 +159,16 @@ function Press() {
                           <div className="row">
                             <div className="col-4">
                               {/* <a href="#"> */}
-                                <img
-                                  className="img-responsive sidebar"
-                                  alt="U.S. Navy Logo"
-                                  src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                // className="img-responsive sidebar"
+                                alt="U.S. Navy Logo"
+                                src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
+                              />
                               {/* </a> */}
                             </div>
                             <div className="col-12">
@@ -166,8 +179,8 @@ function Press() {
                               </h5>
                               <h2 className="col-h2">
                                 {/* <a href="#"> */}
-                                  Navy Exchange, Marine Corps Exchange Customers
-                                  can Support Navy-Marine Corps Relief Society{" "}
+                                Navy Exchange, Marine Corps Exchange Customers
+                                can Support Navy-Marine Corps Relief Society{" "}
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"
@@ -178,7 +191,13 @@ function Press() {
                                 <a href="#"></a>
                               </h2>
                               <h3></h3>
-                              <div style={{background:"#eee",border:"1px solid #ccc",padding:"5px 10px"}}>
+                              <div
+                                style={{
+                                  background: "#eee",
+                                  border: "1px solid #ccc",
+                                  padding: "5px 10px",
+                                }}
+                              >
                                 NEX and MCX patrons have the opportunity to
                                 assist the Navy-Marine Corps Relief Society
                                 (NMCRS) by purchasing a $5 benefit ticket. This
@@ -195,24 +214,29 @@ function Press() {
                           <div className="row">
                             <div className="col-4">
                               {/* <a href="#"> */}
-                                <img
-                                  className="img-responsive"
-                                  alt="U.S. Navy Logo"
-                                  src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                // className="img-responsive"
+                                alt="U.S. Navy Logo"
+                                src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
+                              />
                               {/* </a> */}
                             </div>
                             <div className="col-12">
-                              <h6 className="col-h6" >3/31/2023</h6>
+                              <h6 className="col-h6">3/31/2023</h6>
                               <h5 className="col-h5">
                                 {" "}
                                 <font color="#088199">Testimony</font>
                               </h5>
                               <h2 className="col-h2">
                                 {/* <a href="#"> */}
-                                  House Appropriations Subcommittee on Defense
-                                  Holds Hearing on Fiscal Year 2024 Budget
-                                  Request for the Navy and Marine Corps
+                                House Appropriations Subcommittee on Defense
+                                Holds Hearing on Fiscal Year 2024 Budget Request
+                                for the Navy and Marine Corps
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"
@@ -240,23 +264,28 @@ function Press() {
                           <div className="row">
                             <div className="col-4">
                               {/* <a class="thumb" href="#"> */}
-                                <img
-                                  className="img-responsive"
-                                  src="m.avif"
-                                  alt=""
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                // class Name="img-responsive"
+                                src="m.avif"
+                                alt=""
+                              />
                               {/* </a> */}
                             </div>
                             <div className="col-12">
-                              <h6 className="col-h6" > 3/30/2023</h6>
+                              <h6 className="col-h6"> 3/30/2023</h6>
                               <h5 className="col-h5">
                                 {" "}
                                 <font color="#088199">Press Release</font>
                               </h5>
                               <h2>
                                 {/* <a href="#"> */}
-                                  CNO, Linda Gilday Celebrate Women’s History
-                                  Month, Release New Women In the Navy Book
+                                CNO, Linda Gilday Celebrate Women’s History
+                                Month, Release New Women In the Navy Book
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"
@@ -276,28 +305,32 @@ function Press() {
                             </div>
                           </div>
                         </li>
-   <li className="navy-thumb-li">
+                        <li className="navy-thumb-li">
                           <div className="row">
                             <div className="col-4">
                               {/* <a href="#"> */}
-                                <img
-                                  className="img-responsive"
-                                  alt="U.S. Navy Logo"
-                                  src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
-                                />
+                              <img
+                                style={{
+                                  height: "300px",
+                                  width: "90%",
+                                  margin: "1em",
+                                }}
+                                alt="U.S. Navy Logo"
+                                src="https://media.defense.gov/2023/Apr/03/2003194889/600/400/0/230329-N-GD259-0005.JPG"
+                              />
                               {/* </a> */}
                             </div>
                             <div className="col-12">
-                              <h6 className="col-h6" >3/30/2023</h6>
+                              <h6 className="col-h6">3/30/2023</h6>
                               <h5 className="col-h5">
                                 {" "}
                                 <font color="#088199">Testimony</font>
                               </h5>
                               <h2 className="col-h2">
                                 {/* <a href="#"> */}
-                                  Senate Appropriations Subcommittee on Defense
-                                  Holds Hearing on Fiscal Year 2024 Budget
-                                  Request for Navy and Marine Corps
+                                Senate Appropriations Subcommittee on Defense
+                                Holds Hearing on Fiscal Year 2024 Budget Request
+                                for Navy and Marine Corps
                                 {/* </a> */}
                                 <i
                                   class="fa fa-chevron-right"

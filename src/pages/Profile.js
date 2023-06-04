@@ -1,8 +1,8 @@
 
-import penn from '../images/penn.jpeg'
+// import penn from '../images/penn.jpeg'
 import "../styles/Profile.css";
 import { useLocation } from "react-router-dom";
-import React, { useEffect} from "react"
+// import React, { useEffect} from "react"
 
 
 
@@ -31,15 +31,7 @@ const location = useLocation()
             src={location.state.image}
             alt="n/a"
           />
-          {/* <div class="download">
-            <a
-              href="/uploads/646a8f295e02783d29dad5ed10362bec.jpeg"
-              rel="noopener"
-              download=""
-            >
-              Download
-            </a>
-          </div> */}
+          
         </div>
         <hr/>
         <div class="press-briefing-columns">
@@ -49,7 +41,7 @@ const location = useLocation()
           </div>
           <hr/>
           
-          <p className='small'> Updated 2022</p >
+          <p className='small'> Updated 2023</p >
 
         </div>
 

@@ -2,9 +2,10 @@ import "../styles/Home.css";
 import { Link } from "react-router-dom";
 
 
-function BioList(props) {
+function SearchComponent(props) {
   return (
     <div className="show">
+
       <li className="data-name" data-lastname="Acquavella">
         
         <Link
@@ -29,4 +30,4 @@ function BioList(props) {
   );
 }
 
-export default BioList;
+export default SearchComponent;

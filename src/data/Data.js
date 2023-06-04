@@ -1546,7 +1546,7 @@ import img100 from "../images/lisapenn.jpeg";
       },
       {
         id: "e99",
-        name: "Amelia Penn",
+        name: "Penn",
         rank: "Lieutenant Commander",
         image: img99,
         content: "She is a native of ANCHORAGE Alaska. Born to an Ireland mother she commissioned through the NROTC program at the UNIVERSITY OF ALASKA ANCHORAGE in 1995 and After completing Officer Indoctrination School in December 2003, she served as a Staff Nurse at Naval Hospital Camp Lejeune, North Carolina. As a Lieutenant Junior Grade, she earned a Master of Arts Degree in Health Services Management from UAA and also has a degree in International Relations and she completed her Joint Professional Military Education as a student of the U.S. Naval War College and the Joint Forces Staff College. At sea, she served onboard USS Wasp (LHD 1), USS Saipan (LHA 2) USS Elrod (FFG 55), USS Leyte Gulf (CG 55), and USS Porter (DDG 78). She also commanded USS Kauffman (FFG 59) and Destroyer Squadron 28 where she deployed twice as the Sea Combat commander with Harry S. Truman Carrier Strike Group."+
@@ -1555,7 +1555,7 @@ import img100 from "../images/lisapenn.jpeg";
 
       {
         id: "e100",
-        name: "Isabellae Penn",
+        name: "Penn",
         rank: "Lieutenant Commander",
         image: img100,
         content: "She is a native of ANCHORAGE Alaska. Born to an Ireland mother she commissioned through the NROTC program at the UNIVERSITY OF ALASKA ANCHORAGE in 1995 and After completing Officer Indoctrination School in December 2003, she served as a Staff Nurse at Naval Hospital Camp Lejeune, North Carolina. As a Lieutenant Junior Grade, she earned a Master of Arts Degree in Health Services Management from UAA and also has a degree in International Relations and she completed her Joint Professional Military Education as a student of the U.S. Naval War College and the Joint Forces Staff College. At sea, she served onboard USS Wasp (LHD 1), USS Saipan (LHA 2) USS Elrod (FFG 55), USS Leyte Gulf (CG 55), and USS Porter (DDG 78). She also commanded USS Kauffman (FFG 59) and Destroyer Squadron 28 where she deployed twice as the Sea Combat commander with Harry S. Truman Carrier Strike Group."+

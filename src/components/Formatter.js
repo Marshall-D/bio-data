@@ -18,8 +18,10 @@ function Formatter() {
         <TopHeader/>
       </div> */}
       <div style={{ width: "100%" }}>
-        <MainHeader/>
+      <MainHeader/>
+
       </div>
+
       <Outlet />
 
       {/* <Home/> */}

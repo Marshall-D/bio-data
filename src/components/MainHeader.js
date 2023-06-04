@@ -5,9 +5,9 @@ import Header from './Header';
 
 function MainHeader() {
     return (
-      <div>
-        <TopHeader/>
+      <div >
         <Mobile/>
+        <TopHeader/>
         <Header/>
 
       </div>

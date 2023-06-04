@@ -12,7 +12,7 @@ function Header() {
   // const { showSide, toggleSide } = useContext(AuthContext);
 
   return (
-    <main id="content" class="content-fixed">
+    <div className="content-fixed">
       <div
         id="dnn_HeaderPane"
         class="backend-cp-collapsible DNNEmptyPane"
@@ -33,7 +33,7 @@ function Header() {
                       <img
                         alt=""
                         src={bg}
-                        style={{width: "100%"}}
+                        style={{width: "100%", }}
                         title=""
                       />
                     </p>
@@ -57,7 +57,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 export default Header;

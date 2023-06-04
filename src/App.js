@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Profile from './pages/Profile';
+import Search from './components/Search';
 
 
 
@@ -29,6 +30,12 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <Profile 
+       
+        />
+      },
+      {
+        path: "/search",
+        element: <Search 
        
         />
       }

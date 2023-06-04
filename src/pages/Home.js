@@ -1,6 +1,9 @@
 import BioList from "../components/BioList";
 import "../styles/Home.css";
 import {members} from "../data/Data";
+import { useState } from "react";
+import Search from "../components/SearchComponent";
+import { Link } from "react-router-dom";
 
 
 
@@ -11,49 +14,53 @@ import {members} from "../data/Data";
 
 
 function Home(props) {
+  // const [searchInput,setSearchInput] = useState(members);
+
+  
+
+  // const handletext = (event) => {
+  //   event.preventDefault();
+  //   setSearchInput(event.target.value)
+
+  // }
+
+  //
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   // console.log(searchInput)
+  //   let filteredMemebers = members.filter(
+  //     (member) => member.name === searchInput 
+  //   );
+  //   setFilteredMembers(filteredMemebers)
+  //   console.log(filteredMemebers)
+
+  // }
+
+
   return (
     <div className="dnd">
-      <form className="example" action="/search">
+
+
+      <form className="example" 
+      // onSubmit={handleSubmit} 
+      >
         <input
+        // onChange={handletext}
           className="search-input"
           type="text"
           placeholder="Search name"
-          name="search"
+          // name="search"
         />
-        <button className="button" type="submit">
+         <Link 
+         to="/search">
+        <button className="button" type="submit"  >
           <i class="fa fa-search"></i>
         </button>
+        </Link> 
+
       </form>
 
-      <div class="theme-container empty">
-        <div id="dnn_ctr2178_ContentPane">
-          <div
-            id="dnn_ctr2178_ModuleContent"
-            class="DNNModuleContent ModDNNHTMLC"
-          >
-            <div>
-              <div class="row justify-content-md-center">
-                <div className="col-12">
-                  <a
-                    className="bio-sub"
-                    data-toggle="tooltip"
-                    href="#"
-                    style={{
-                      paddingtop: "40px",
-                      width: "100%",
-                      backgroundColor: "#003b4f !important",
-                    }}
-                    title="For instruction on submitting biographies, click here"
-                  >
-                    Biography Submission Instruction{" "}
-                    <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <section className="bio-list">
         <ul className="alist">
           {/* map the array of navy members here and 
@@ -68,7 +75,11 @@ function Home(props) {
           />
 
           ))}
-          
+         
+
+
+        
+
         </ul>
       </section>
     </div>
