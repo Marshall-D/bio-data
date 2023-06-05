@@ -96,11 +96,11 @@ import img95 from "../images/schliese.jpeg";
 import img96 from "../images/banaji.jpeg";
 import img97 from "../images/cheese.jpeg";
 import img98 from "../images/robertclark.jpeg";
-import img99 from "../images/amwlia.jpeg";
-import img100 from "../images/lisapenn.jpeg";
+
+
 
  
-    export const members = [
+     export const members = [
       {
         id: "e1",
         name: "Russell Rumbaugh",
@@ -1543,22 +1543,6 @@ import img100 from "../images/lisapenn.jpeg";
 "At sea, Clark has operated in every geographic combatant command region. He served as Mission Commander and Division Officer aboard Patrol Squadron 11 (VP 11); as assistant navigator and Officer of the Deck (Underway) aboard USS Carl Vinson (CVN 70); and as Mission Commander, department head and executive officer aboard Patrol Squadron 92 (VP 92). He has supported Operations Sharp Guard, Maritime Guard, Southern Watch, Desert Fox, Caper Focus, Carib Shield, Enduring Freedom and Unified Response."+
 
 "Ashore, Clark served as a flag lieutenant in NAVEUR/U.S. Sixth Fleet (COMFAIRMED/CTF-67/COMARAIRMED) and mobilized in support of a Deputy Secretary of Defense counter-terrorism mission. His command tours include leading teams supporting U.S. Forces Korea / United Nations Command / Combined Forces Command; U.S. Southern Command; Fleet Cyber Command / U.S. Tenth Fleet; and the staff of the Chief of Naval Operations (OPNAV N3/N5). His post command assignments include the staff of the Secretary of Defense in OSD Personnel and Readiness (Programming and Resources) and then as deputy commander, Navy Region Mid-Atlantic Reserve Component Command, Norfolk, supporting over 12,000 Sailors in 25 Navy Reserve Centers.  "
-      },
-      {
-        id: "e99",
-        name: "Penn",
-        rank: "Lieutenant Commander",
-        image: img99,
-        content: "She is a native of ANCHORAGE Alaska. Born to an Ireland mother she commissioned through the NROTC program at the UNIVERSITY OF ALASKA ANCHORAGE in 1995 and After completing Officer Indoctrination School in December 2003, she served as a Staff Nurse at Naval Hospital Camp Lejeune, North Carolina. As a Lieutenant Junior Grade, she earned a Master of Arts Degree in Health Services Management from UAA and also has a degree in International Relations and she completed her Joint Professional Military Education as a student of the U.S. Naval War College and the Joint Forces Staff College. At sea, she served onboard USS Wasp (LHD 1), USS Saipan (LHA 2) USS Elrod (FFG 55), USS Leyte Gulf (CG 55), and USS Porter (DDG 78). She also commanded USS Kauffman (FFG 59) and Destroyer Squadron 28 where she deployed twice as the Sea Combat commander with Harry S. Truman Carrier Strike Group."+
-        " Furthermore, she has been deployed in support of Operations Joint Endeavor, Active Endeavor, Afghanistan Freedom, Enduring Freedom and Inherent Resolve. She was transferred to the National Naval Medical Center in Bethesda, Maryland. She served as a Staff Nurse on the Mother and Infant Care Center and Nursing Supervisor. CDR she was aboard to the USNS Comfort (T-AH 19) from March to May 2005 in support of Operation Iraqi Freedom (OIF). She also served as communications and information systems department head for USS Blue Ridge (LCC 19) and flag communications officer for Carrier Strike Group 8 embarked on USS Harry S Truman (CVN 75). Ashore, she served as current surface operations officer for Commander, U.S. Atlantic Fleet; flag secretary to Commander, Naval Surface Force Atlantic; contingency plans officer, U.S. Joint Forces Command; and, assistant chief of staff for Manning, Manpower, and Personnel (N1) for Commander, Naval Surface Force Atlantic. Couture also served as a federal executive fellow at the Center for a New American Security In July 2010, she was transferred to U.S. Airforce Hospital Okinawa serving as a Family Nurse Practitioner and Division Officer, then later as Head, Maternal-Child Nursing Department. She is currently on a clandestine active duty. She is stationed at the Intensive Care Unit at the, Al-Tanf garrison (ATG), is a United States military base within territory controlled by the Syrian opposition in Homs Governorate, Syria. It is located 24 km (15 mi) west of the al-Tanf border crossing in the Syrian Desert. The surrounding deconfliction zone is located along the Iraq and Jordan–Syria border. The garrison is located along a critical road known as the M2 Baghdad–Damascus Highway."
-      },
-
-      {
-        id: "e100",
-        name: "Penn",
-        rank: "Lieutenant Commander",
-        image: img100,
-        content: "She is a native of ANCHORAGE Alaska. Born to an Ireland mother she commissioned through the NROTC program at the UNIVERSITY OF ALASKA ANCHORAGE in 1995 and After completing Officer Indoctrination School in December 2003, she served as a Staff Nurse at Naval Hospital Camp Lejeune, North Carolina. As a Lieutenant Junior Grade, she earned a Master of Arts Degree in Health Services Management from UAA and also has a degree in International Relations and she completed her Joint Professional Military Education as a student of the U.S. Naval War College and the Joint Forces Staff College. At sea, she served onboard USS Wasp (LHD 1), USS Saipan (LHA 2) USS Elrod (FFG 55), USS Leyte Gulf (CG 55), and USS Porter (DDG 78). She also commanded USS Kauffman (FFG 59) and Destroyer Squadron 28 where she deployed twice as the Sea Combat commander with Harry S. Truman Carrier Strike Group."+
-        " Furthermore, she has been deployed in support of Operations Joint Endeavor, Active Endeavor, Afghanistan Freedom, Enduring Freedom and Inherent Resolve. She was transferred to the National Naval Medical Center in Bethesda, Maryland. She served as a Staff Nurse on the Mother and Infant Care Center and Nursing Supervisor. CDR she was aboard to the USNS Comfort (T-AH 19) from March to May 2005 in support of Operation Iraqi Freedom (OIF). She also served as communications and information systems department head for USS Blue Ridge (LCC 19) and flag communications officer for Carrier Strike Group 8 embarked on USS Harry S Truman (CVN 75). Ashore, she served as current surface operations officer for Commander, U.S. Atlantic Fleet; flag secretary to Commander, Naval Surface Force Atlantic; contingency plans officer, U.S. Joint Forces Command; and, assistant chief of staff for Manning, Manpower, and Personnel (N1) for Commander, Naval Surface Force Atlantic. Couture also served as a federal executive fellow at the Center for a New American Security In July 2010, she was transferred to U.S. Airforce Hospital Okinawa serving as a Family Nurse Practitioner and Division Officer, then later as Head, Maternal-Child Nursing Department. She is currently on a clandestine active duty. She is stationed at the Intensive Care Unit at the, Al-Tanf garrison (ATG), is a United States military base within territory controlled by the Syrian opposition in Homs Governorate, Syria. It is located 24 km (15 mi) west of the al-Tanf border crossing in the Syrian Desert. The surrounding deconfliction zone is located along the Iraq and Jordan–Syria border. The garrison is located along a critical road known as the M2 Baghdad–Damascus Highway."
-      },
+      }
+     
     ];
