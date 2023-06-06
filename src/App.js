@@ -8,6 +8,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Profile from './pages/Profile';
 import Search from './components/Search';
 import Todo from './components/todo';
+import Base from './pages/Base';
 
 
 
@@ -18,6 +19,9 @@ const router = createBrowserRouter([
     children:[
       {
         path: "/",
+        element: <Base />
+      },{
+        path: "/home",
         element: <Home />
       },
       {
